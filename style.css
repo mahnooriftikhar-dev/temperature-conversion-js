@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "NotoSerifDisplay";
+    src: url("NotoSerifDisplay_Condensed-Black.ttf");
+}
+body{
+    font-size: large;
+   font-size: 1.5em;
+}
