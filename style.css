@@ -6,15 +6,16 @@
 * {
     margin: 0;
     padding: 0;
-    color:blueviolet;
-    font-weight:bolder;
+    color:rgb(4, 1, 156);
+    font-weight:bold;
+    font-size: large;
 
 }
 
-body {
+body { 
     font-size: large;
     font-size: 1.5em;
-    background-image: url("bg-image/bg-image.jpg");
+    /* background-image: url("bg-image/bg-image.jpg"); */
     background-size: auto;
     border-image-width: auto;
     background-color: hsla(0, 0%, 0%, 0.027);
@@ -25,13 +26,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     object-fit: cover;
     /* background-color: black; */
 }
 
 .box {
-    width: 20rem;
+    width: 30rem;
     height: 20rem;
     border: 4px solid black;
     border-radius: 58px;
+    align-items: baseline;
+    justify-content: center;
+    display: inline-flexbox;
+    padding: 2%;
+    
+}
+
+#Temprature-Conversion{
+    margin:3%;
+}
+
+#Temprature{
+    margin:3%;
 }
